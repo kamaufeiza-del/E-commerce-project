@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Registration & Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f5f5f5;
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      width: 400px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+    }
+
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    table th {
+      background: #007bff;
+      color: white;
+    }
+
+    table img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Registration Form -->
+  <h2>Customer Registration Form</h2>
+  <form>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" placeholder="Enter your full name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" placeholder="e.g. +254700000000" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Enter your password" required>
+
+    <label for="confirm">Confirm Password:</label>
+    <input id="confirm" name="confirm"type="Enter your password" required>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <!-- E-commerce Table -->
+  <h2>Available Products</h2>
+  <table>
+    <tr>
+      <th>E-commerce Firm</th>
+      <th>Firm Icon</th>
+      <th>Product Name</th>
+      <th>Category</th>
+      <th>Description</th>
+    </tr>
+
+    <tr>
+      <td>Amazon</td>
+      <td><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon"></td>
+      <td>Wireless Mouse</td>
+      <td>Electronics</td>
+      <td>
+        <ul>
+          <li>Ergonomic design</li>
+          <li>Bluetooth connectivity</li>
+          <li>Rechargeable battery</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>eBay</td>
+      <td><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" alt="eBay"></td>
+      <td>Sports Shoes</td>
+      <td>Fashion</td>
+      <td>
+        <ul>
+          <li>Lightweight material</li>
+          <li>Available in all sizes</li>
+          <li>Durable sole</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Alibaba</td>
+      <td><img src="c:\Users\Admin\Pictures\Alibaba-Logo.png" alt="Alibaba"></td>
+      <td>Smartphone</td>
+      <td>Electronics</td>
+      <td>
+        <ul>
+          <li>6.5 inch display</li>
+          <li>Dual SIM support</li>
+          <li>5000mAh battery</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Walmart</td>
+      <td><img src="c:\Users\Admin\Pictures\walmart.png" alt="Walmart"></td>
+      <td>Microwave Oven</td>
+      <td>Home Appliances</td>
+      <td>
+        <ul>
+          <li>800W power</li>
+          <li>Defrost function</li>
+          <li>Compact design</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Jumia</td>
+      <td><img src="c:\Users\Admin\Pictures\jumia logo.png" alt="Jumia"></td>
+      <td>Leather Wallet</td>
+      <td>Accessories</td>
+      <td>
+        <ul>
+          <li>100% genuine leather</li>
+          <li>Multiple card slots</li>
+          <li>Slim design</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Flipkart</td>
+      <td><img src="c:\Users\Admin\Pictures\flipkart logo.jfif" alt="Flipkart"></td>
+      <td>Laptop Backpack</td>
+      <td>Bags</td>
+      <td>
+        <ul>
+          <li>Water resistant</li>
+          <li>Fits 15.6 inch laptop</li>
+          <li>Padded straps</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Shopify</td>
+      <td><img src="c:\Users\Admin\Pictures\shopify logo.png" alt="Shopify"></td>
+      <td>Coffee Maker</td>
+      <td>Kitchen</td>
+      <td>
+        <ul>
+          <li>Brews in 5 minutes</li>
+          <li>1.5L capacity</li>
+          <li>Auto shut-off</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Rakuten</td>
+      <td><img src="c:\Users\Admin\Pictures\Rakuten-Logo.png" alt="Rakuten"></td>
+      <td>Bluetooth Speaker</td>
+      <td>Electronics</td>
+      <td>
+        <ul>
+          <li>360° sound</li>
+          <li>10hr battery</li>
+          <li>Waterproof</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Target</td>
+      <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Target_logo.svg" alt="Target"></td>
+      <td>Desk Lamp</td>
+      <td>Furniture</td>
+      <td>
+        <ul>
+          <li>LED light</li>
+          <li>Adjustable neck</li>
+          <li>Energy saving</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>BestBuy</td>
+      <td><img src="c:\Users\Admin\Pictures\best buy.webp" alt="BestBuy"></td>
+      <td>Smart TV</td>
+      <td>Electronics</td>
+      <td>
+        <ul>
+          <li>50 inch 4K UHD</li>
+          <li>Built-in WiFi</li>
+          <li>Voice control</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Kilimall</td>
+      <td><img src="c:\Users\Admin\Pictures\kilimall.png" alt="Kilimall"></td>
+      <td>Blender</td>
+      <td>Kitchen</td>
+      <td>
+        <ul>
+          <li>600W motor</li>
+          <li>Glass jar</li>
+          <li>Multi-speed</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Daraz</td>
+      <td><img src="c:\Users\Admin\Pictures\Daraz_Logo.png" alt="Daraz"></td>
+      <td>Men’s Jacket</td>
+      <td>Fashion</td>
+      <td>
+        <ul>
+          <li>Winter collection</li>
+          <li>Water resistant</li>
+          <li>Multiple colors</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Etsy</td>
+      <td><img src="c:\Users\Admin\Pictures\Etsy_logo.svg.png" alt="Etsy"></td>
+      <td>Handmade Bracelet</td>
+      <td>Jewelry</td>
+      <td>
+        <ul>
+          <li>Beaded design</li>
+          <li>Customizable size</li>
+          <li>Eco-friendly</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Shopit</td>
+      <td><img src="c:\Users\Admin\Pictures\shopit.jfif" alt="Shopit"></td>
+      <td>Gaming Keyboard</td>
+      <td>Electronics</td>
+      <td>
+        <ul>
+          <li>RGB backlight</li>
+          <li>Mechanical keys</li>
+          <li>USB-C connection</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Myntra</td>
+      <td><img src="c:\Users\Admin\Pictures\myntra.png" alt="Myntra"></td>
+      <td>Women’s Dress</td>
+      <td>Fashion</td>
+      <td>
+        <ul>
+          <li>Floral print</li>
+          <li>Cotton fabric</li>
+          <li>All sizes available</li>
+        </ul>
+      </td>
+    </tr>
+
+  </table>
+</body>
+</html>
